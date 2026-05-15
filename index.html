@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Optimization -->
+    <title>SkibX Executor: The #1 Keyless Roblox Exploit for iOS & Android (2026)</title>
+    <meta name="description"
+        content="Download SkibX Executor, the best keyless Roblox script executor with direct install. Level 8 execution, 100% UNC support, and built-in script hub for mobile.">
+    <meta name="keywords"
+        content="SkibX Executor, Roblox executor, keyless Roblox exploit, SkibX mobile, iOS Roblox executor, Android Roblox exploit, SkibX APK, download SkibX">
+    <link rel="canonical" href="https://skibx-executor.github.io/">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#1a1a2e">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SkibX Executor: The #1 Keyless Roblox Exploit for iOS & Android">
+    <meta property="og:description"
+        content="Experience true power with SkibX. Capable of executing any script flawlessly, supporting 100% UNC environment variables without crashes.">
+    <meta property="og:url" content="https://skibx-executor.github.io/">
+    <meta property="og:site_name" content="SkibX Executor Official">
+    <meta property="og:image" content="https://placehold.co/1200x630/1a1a2e/e94560?text=SkibX+Executor">
+
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SkibX Executor: Ultimate Mobile Roblox Modding">
+    <meta name="twitter:description"
+        content="Download the ultimate keyless mobile executor. Direct install, no PC needed, massive script hub.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/1a1a2e/e94560?text=SkibX+Executor">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SkibX Executor",
+      "operatingSystem": "Android, iOS",
+      "applicationCategory": "GameApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "12450"
+      },
+      "description": "SkibX Executor is a high-performance, keyless Level 8 script executor designed specifically for Roblox on mobile devices (iOS and Android). It features direct installation and an extensive built-in script hub."
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f0f1a',
+                            card: 'rgba(25, 25, 40, 0.7)',
+                            primary: '#e94560',
+                            secondary: '#533483',
+                            accent: '#16213e',
+                            text: '#e0e0e0',
+                            muted: '#a0a0b0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace']
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                        'hero-glow': 'conic-gradient(from 180deg at 50% 50%, #533483 0deg, #e94560 180deg, #533483 360deg)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <style>
+        /* Custom Styles & Glassmorphism */
+        body {
+            background-color: #0f0f1a;
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+
+        .glass-nav {
+            background: rgba(15, 15, 26, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .glass-card {
+            background: rgba(25, 25, 40, 0.4);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(233, 69, 96, 0.5);
+            box-shadow: 0 10px 40px rgba(233, 69, 96, 0.15);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #ff6b6b, #e94560, #533483);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .btn-glow {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .btn-glow::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: inherit;
+            background: linear-gradient(135deg, #e94560, #533483);
+            z-index: -1;
+            filter: blur(10px);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .btn-glow:hover::before {
+            opacity: 0.8;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #e94560, #a2395b);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #ff4d6d, #b83a62);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: rgba(83, 52, 131, 0.2);
+            border: 1px solid rgba(83, 52, 131, 0.5);
+            color: white;
+            backdrop-filter: blur(4px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(83, 52, 131, 0.4);
+            border-color: #e94560;
+        }
+
+        /* Animated Background Blobs */
+        .blob {
+            position: absolute;
+            filter: blur(90px);
+            z-index: -1;
+            opacity: 0.4;
+            animation: float 20s infinite alternate;
+        }
+
+        .blob-1 {
+            top: -10%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: #533483;
+            border-radius: 50%;
+        }
+
+        .blob-2 {
+            bottom: 20%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: #e94560;
+            border-radius: 50%;
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -50px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+        }
+
+        /* FAQ Accordion */
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease;
+        }
+
+        .faq-item.active .faq-content {
+            max-height: 500px;
+            /* Arbitrary large number */
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Code Block Styling */
+        .code-window {
+            background: #1e1e2e;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        .code-header {
+            background: #11111b;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .mac-btn {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .sticky-cta {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 50;
+            box-shadow: 0 10px 40px rgba(233, 69, 96, 0.4);
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .sticky-cta.hidden-state {
+            transform: translate(-50%, 100px);
+            opacity: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body class="antialiased relative">
+
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-[-1]">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="glass-nav fixed w-full top-0 z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div
+                        class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#e94560] to-[#533483] flex items-center justify-center shadow-lg shadow-brand-primary/20">
+                        <i class="ph-bold ph-terminal-window text-2xl text-white"></i>
+                    </div>
+                    <span class="font-bold text-2xl tracking-tight text-white">SkibX</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#features"
+                        class="text-brand-muted hover:text-white transition-colors text-sm font-medium">Features</a>
+                    <a href="#how-it-works"
+                        class="text-brand-muted hover:text-white transition-colors text-sm font-medium">Installation</a>
+                    <a href="#faq"
+                        class="text-brand-muted hover:text-white transition-colors text-sm font-medium">FAQ</a>
+                    <a href="https://fluxusofficial.com/all-executor/"
+                        class="btn-glow btn-primary px-6 py-2.5 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg">
+                        <i class="ph-bold ph-download-simple"></i> Download
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-brand-muted hover:text-white focus:outline-none p-2">
+                        <i class="ph-bold ph-list text-2xl" id="menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden glass-nav border-t border-white/5">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#features"
+                    class="block px-3 py-3 rounded-lg text-base font-medium text-brand-muted hover:text-white hover:bg-white/5">Features</a>
+                <a href="#how-it-works"
+                    class="block px-3 py-3 rounded-lg text-base font-medium text-brand-muted hover:text-white hover:bg-white/5">Installation</a>
+                <a href="#faq"
+                    class="block px-3 py-3 rounded-lg text-base font-medium text-brand-muted hover:text-white hover:bg-white/5">FAQ</a>
+                <a href="https://fluxusofficial.com/all-executor/"
+                    class="block px-3 py-3 mt-4 text-center rounded-xl bg-brand-primary text-white font-bold">Download
+                    Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center max-w-4xl mx-auto">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border-brand-primary/30 text-brand-primary text-sm font-semibold mb-6 animate-pulse">
+                        <span class="w-2 h-2 rounded-full bg-brand-primary"></span>
+                        v2.707 Mobile Release is Live
+                    </div>
+
+                    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
+                        Roblox Exploiting <br>
+                        <span class="text-gradient">Redefined for Mobile</span>
+                    </h1>
+
+                    <p class="text-lg md:text-xl text-brand-muted mb-10 max-w-2xl mx-auto leading-relaxed">
+                        <strong>SkibX Executor</strong> is the ultimate keyless Roblox script executor for iOS and
+                        Android. Experience Level 8 execution, 100% UNC support, and direct installation without a PC.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="https://fluxusofficial.com/all-executor/"
+                            class="btn-glow btn-primary px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3">
+                            <i class="ph-bold ph-apple-logo text-xl"></i>
+                            Download for iOS
+                        </a>
+                        <a href="https://fluxusofficial.com/all-executor/"
+                            class="btn-glow btn-secondary px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3">
+                            <i class="ph-bold ph-android-logo text-xl text-green-400"></i>
+                            Download Android APK
+                        </a>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div
+                        class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 border-y border-white/10 py-8 glass-card rounded-2xl mx-auto">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white mb-1">2.5M+</div>
+                            <div class="text-xs text-brand-muted uppercase tracking-wider">Active Users</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white mb-1">Level 8</div>
+                            <div class="text-xs text-brand-muted uppercase tracking-wider">Execution Power</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white mb-1">100%</div>
+                            <div class="text-xs text-brand-muted uppercase tracking-wider">Keyless Access</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white mb-1">0 Bans</div>
+                            <div class="text-xs text-brand-muted uppercase tracking-wider">Reported Recently</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-black/20" id="about">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">What is <span class="text-gradient">SkibX
+                                Executor?</span></h2>
+                        <div class="prose prose-invert max-w-none text-brand-muted space-y-5">
+                            <p>
+                                <strong>SkibX Executor</strong> represents a monumental leap forward in the mobile
+                                Roblox exploiting scene. Built from the ground up for modern smartphones, it acts as a
+                                high-performance bridge between customized Lua scripts and the Roblox game engine.
+                            </p>
+                            <p>
+                                Unlike traditional methods that require tedious PC connections or sideloading tools like
+                                AltStore or Scarlet, SkibX utilizes a revolutionary <strong>Direct Install</strong>
+                                method. This means you can download and launch the exploit directly on your iPhone,
+                                iPad, or Android device within minutes.
+                            </p>
+                            <p>
+                                What truly sets the SkibX Executor apart from competitors like Delta or Arceus X is its
+                                <strong>100% Keyless architecture</strong>. We believe you shouldn't have to jump
+                                through link shorteners or verify daily just to play. Open the app, inject, and
+                                execute—it's that simple.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Decorative Code Window -->
+                    <div
+                        class="code-window shadow-2xl shadow-brand-secondary/20 transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <div class="code-header">
+                            <div class="mac-btn bg-red-500"></div>
+                            <div class="mac-btn bg-yellow-500"></div>
+                            <div class="mac-btn bg-green-500"></div>
+                            <span class="text-xs text-brand-muted ml-2 font-mono">skibx_core.lua</span>
+                        </div>
+                        <div class="p-6 font-mono text-sm leading-relaxed overflow-x-auto">
+                            <pre><code class="language-lua"><span class="text-purple-400">local</span> SkibX = <span class="text-blue-400">loadstring</span>(<span class="text-blue-400">game</span>:<span class="text-blue-400">HttpGet</span>(<span class="text-green-300">"https://api.skibx.org/v2/core"</span>))()
+
+<span class="text-gray-500">-- Initialize Kernel Bypass</span>
+SkibX.<span class="text-blue-400">Init</span>({
+    Mode = <span class="text-green-300">"Stealth"</span>,
+    BypassAntiCheat = <span class="text-orange-400">true</span>,
+    UNC_Support = <span class="text-purple-400">100</span>
+})
+
+<span class="text-gray-500">-- Verify Keyless Auth</span>
+<span class="text-purple-400">if</span> SkibX.<span class="text-blue-400">Auth</span>() <span class="text-purple-400">then</span>
+    <span class="text-blue-400">print</span>(<span class="text-green-300">"SkibX Executor: Hooked Successfully."</span>)
+    SkibX.UI:LoadHub()
+<span class="text-purple-400">end</span></code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 relative" id="features">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl font-bold mb-4">Why Choose <span class="text-gradient">SkibX?</span></h2>
+                    <p class="text-lg text-brand-muted">We stripped away the annoying parts of exploiting and focused
+                        purely on performance, security, and ease of use.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Feature 1 -->
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-brand-primary/20 flex items-center justify-center mb-6 text-brand-primary">
+                            <i class="ph-bold ph-key text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">100% Keyless System</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Say goodbye to LootLabs and Linkvertise. SkibX is completely keyless, granting you instant,
+                            uninterrupted access to your executor every single time you open the app.
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-purple-500/20 flex items-center justify-center mb-6 text-purple-400">
+                            <i class="ph-bold ph-lightning text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Level 8 Execution</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Powered by a custom DLL engine, SkibX handles massive, complex scripts flawlessly. It
+                            supports 100% of UNC environment variables, meaning hubs like Hoho Hub or OwlHub run without
+                            crashing.
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-blue-500/20 flex items-center justify-center mb-6 text-blue-400">
+                            <i class="ph-bold ph-download-simple text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Direct iOS Install</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            No PC? No problem. SkibX utilizes enterprise certificates allowing for a direct install onto
+                            your iPhone or iPad. No need for sideloading apps that revoke constantly.
+                        </p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center mb-6 text-green-400">
+                            <i class="ph-bold ph-shield-check text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Anti-Ban Shield</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Our proprietary stealth technology hooks deep into the Roblox client, masking your activity
+                            from automated detection waves to keep your main accounts secure.
+                        </p>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-yellow-500/20 flex items-center justify-center mb-6 text-yellow-400">
+                            <i class="ph-bold ph-code text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Massive Script Hub</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Access over 10,000 verified scripts directly from the floating mod menu. Search for your
+                            game, tap execute, and start dominating instantly without leaving the app.
+                        </p>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-pink-500/20 flex items-center justify-center mb-6 text-pink-400">
+                            <i class="ph-bold ph-device-mobile text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Mobile Optimized UI</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Designed specifically for touchscreens. A draggable, collapsible floating icon gives you
+                            full control over execution without cluttering your gameplay view.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-brand-accent/30 border-y border-white/5">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row gap-12 items-center">
+                    <div class="lg:w-1/2">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Unmatched <span
+                                class="text-gradient">Performance</span></h2>
+                        <div class="space-y-6 text-brand-muted">
+                            <p>
+                                A common issue with mobile executors is the severe frame rate drop during injection. The
+                                SkibX Executor development team completely rewrote the injection protocol for version
+                                2.707.
+                            </p>
+                            <ul class="space-y-4">
+                                <li class="flex items-start gap-3">
+                                    <i class="ph-fill ph-check-circle text-brand-primary text-xl mt-1 shrink-0"></i>
+                                    <div>
+                                        <strong class="text-white block">Zero-Lag Injection</strong>
+                                        Inject scripts in milliseconds without your game freezing.
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i class="ph-fill ph-check-circle text-brand-primary text-xl mt-1 shrink-0"></i>
+                                    <div>
+                                        <strong class="text-white block">Minimal Battery Drain</strong>
+                                        Optimized background processing ensures SkibX doesn't kill your device's battery
+                                        while farming.
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i class="ph-fill ph-check-circle text-brand-primary text-xl mt-1 shrink-0"></i>
+                                    <div>
+                                        <strong class="text-white block">Crash Prevention</strong>
+                                        Built-in error handling catches broken scripts before they can force-close your
+                                        Roblox client.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 w-full">
+                        <div class="glass-card p-6 rounded-2xl flex flex-col gap-4">
+                            <!-- Mock UI of the executor -->
+                            <div class="flex justify-between items-center border-b border-white/10 pb-4">
+                                <div class="flex items-center gap-2">
+                                    <div class="w-8 h-8 rounded bg-brand-primary flex items-center justify-center">
+                                        <i class="ph-bold ph-terminal-window text-white"></i>
+                                    </div>
+                                    <span class="font-bold">SkibX Hub</span>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                    <span class="text-xs text-green-500 font-mono">Attached</span>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-black/50 rounded-lg p-3 font-mono text-sm text-brand-muted h-32 overflow-hidden relative">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 pointer-events-none">
+                                </div>
+                                > Initializing SkibX v2.707...<br>
+                                > Bypassing Byfron mobile...<br>
+                                > Success. Hooked into Process.<br>
+                                > Loading Script Hub Database...<br>
+                                > Ready. 12,450 scripts available.
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="btn-primary w-full py-2 rounded-lg text-sm font-bold shadow-lg shadow-brand-primary/30">Execute</button>
+                                <button
+                                    class="bg-white/10 hover:bg-white/20 text-white w-full py-2 rounded-lg text-sm font-bold transition-colors">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24" id="how-it-works">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">How to Install <span class="text-gradient">SkibX Executor</span>
+                    </h2>
+                    <p class="text-brand-muted">Follow these simple steps to get the most powerful Roblox exploit
+                        running on your device.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- iOS Guide -->
+                    <div class="glass-card p-8 rounded-3xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-brand-primary/10 rounded-full blur-3xl"></div>
+                        <div class="flex items-center gap-4 mb-8 border-b border-white/10 pb-4">
+                            <i class="ph-fill ph-apple-logo text-4xl text-white"></i>
+                            <h3 class="text-2xl font-bold">iOS Installation (iPhone/iPad)</h3>
+                        </div>
+                        <ol class="space-y-6 relative border-l border-white/10 ml-3 pl-6">
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-brand-primary flex items-center justify-center text-xs font-bold text-white">1</span>
+                                <strong class="block text-white mb-1">Download the Profile</strong>
+                                <p class="text-sm text-brand-muted">Click the iOS download button above to grab the
+                                    official SkibX installation profile.</p>
+                            </li>
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-brand-primary flex items-center justify-center text-xs font-bold text-white">2</span>
+                                <strong class="block text-white mb-1">Install Profile</strong>
+                                <p class="text-sm text-brand-muted">A prompt will appear. Tap "Install". The SkibX app
+                                    icon will appear on your home screen.</p>
+                            </li>
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-brand-primary flex items-center justify-center text-xs font-bold text-white">3</span>
+                                <strong class="block text-white mb-1">Trust the Developer</strong>
+                                <p class="text-sm text-brand-muted">Navigate to <code
+                                        class="bg-white/10 px-1 rounded">Settings > General > VPN & Device Management</code>.
+                                    Find the enterprise profile and tap "Trust".</p>
+                            </li>
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-brand-primary flex items-center justify-center text-xs font-bold text-white">4</span>
+                                <strong class="block text-white mb-1">Launch and Play</strong>
+                                <p class="text-sm text-brand-muted">Open SkibX, log into an alt account, pick a game,
+                                    and tap the floating icon to inject scripts!</p>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <!-- Android Guide -->
+                    <div class="glass-card p-8 rounded-3xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-green-500/10 rounded-full blur-3xl"></div>
+                        <div class="flex items-center gap-4 mb-8 border-b border-white/10 pb-4">
+                            <i class="ph-fill ph-android-logo text-4xl text-green-400"></i>
+                            <h3 class="text-2xl font-bold">Android APK Installation</h3>
+                        </div>
+                        <ol class="space-y-6 relative border-l border-white/10 ml-3 pl-6">
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-green-400 flex items-center justify-center text-xs font-bold text-white">1</span>
+                                <strong class="block text-white mb-1">Get the APK File</strong>
+                                <p class="text-sm text-brand-muted">Download the latest SkibX Executor APK file from our
+                                    secure servers via the download link.</p>
+                            </li>
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-green-400 flex items-center justify-center text-xs font-bold text-white">2</span>
+                                <strong class="block text-white mb-1">Allow Unknown Sources</strong>
+                                <p class="text-sm text-brand-muted">Go to your Android Security settings and enable
+                                    installations from "Unknown Sources".</p>
+                            </li>
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-green-400 flex items-center justify-center text-xs font-bold text-white">3</span>
+                                <strong class="block text-white mb-1">Install the App</strong>
+                                <p class="text-sm text-brand-muted">Open your file manager, tap the downloaded APK file,
+                                    and follow the on-screen installation prompts.</p>
+                            </li>
+                            <li class="relative">
+                                <span
+                                    class="absolute -left-[35px] top-0 w-6 h-6 rounded-full bg-brand-accent border-2 border-green-400 flex items-center justify-center text-xs font-bold text-white">4</span>
+                                <strong class="block text-white mb-1">Disable Play Protect (Optional)</strong>
+                                <p class="text-sm text-brand-muted">If Google Play Protect flags the app (common for all
+                                    executors), temporarily disable it to run SkibX smoothly.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-black/30 border-y border-white/5">
+            <div class="max-w-4xl mx-auto px-4">
+                <div class="flex items-center gap-3 mb-8">
+                    <i class="ph-bold ph-wrench text-2xl text-brand-primary"></i>
+                    <h2 class="text-2xl font-bold">Common Problems & Fixes</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white/5 border border-white/10 p-5 rounded-xl">
+                        <h4 class="font-bold text-white mb-2 flex items-center gap-2">
+                            <i class="ph-bold ph-warning-circle text-yellow-400"></i> App Crashing on Injection
+                        </h4>
+                        <p class="text-sm text-brand-muted">Ensure you are using a verified, up-to-date script. Outdated
+                            scripts lacking proper UNC support are the #1 cause of crashes. Clear the app cache and try
+                            a built-in hub script.</p>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-5 rounded-xl">
+                        <h4 class="font-bold text-white mb-2 flex items-center gap-2">
+                            <i class="ph-bold ph-shield-warning text-red-400"></i> Untrusted Developer Error (iOS)
+                        </h4>
+                        <p class="text-sm text-brand-muted">This means you skipped Step 3 of the iOS guide. You must
+                            manually "Trust" the enterprise certificate in your iPhone's VPN & Device Management
+                            settings.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24" id="faq">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold mb-4">Frequently Asked <span class="text-gradient">Questions</span>
+                    </h2>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item glass-card rounded-xl border border-white/10 overflow-hidden cursor-pointer"
+                        onclick="toggleFaq(this)">
+                        <div class="px-6 py-4 flex justify-between items-center bg-white/5">
+                            <h3 class="font-bold text-lg">Is SkibX Executor truly keyless?</h3>
+                            <i class="ph-bold ph-caret-down text-xl faq-icon transition-transform duration-300"></i>
+                        </div>
+                        <div class="faq-content px-6 bg-black/20 text-brand-muted text-sm leading-relaxed">
+                            Yes. Unlike Delta or Arceus X which force you to go through annoying link shorteners (like
+                            Linkvertise or Lootlabs) daily, SkibX is 100% keyless. You open the app, and you are ready
+                            to execute immediately.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item glass-card rounded-xl border border-white/10 overflow-hidden cursor-pointer"
+                        onclick="toggleFaq(this)">
+                        <div class="px-6 py-4 flex justify-between items-center bg-white/5">
+                            <h3 class="font-bold text-lg">Is SkibX safe for my Roblox account?</h3>
+                            <i class="ph-bold ph-caret-down text-xl faq-icon transition-transform duration-300"></i>
+                        </div>
+                        <div class="faq-content px-6 bg-black/20 text-brand-muted text-sm leading-relaxed">
+                            SkibX employs advanced kernel-level hooking and stealth technology to evade automated
+                            anti-cheat systems. However, exploiting inherently carries risk. We strongly recommend using
+                            an "alt" (alternative) account rather than your main account to ensure zero risk to your
+                            primary assets.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item glass-card rounded-xl border border-white/10 overflow-hidden cursor-pointer"
+                        onclick="toggleFaq(this)">
+                        <div class="px-6 py-4 flex justify-between items-center bg-white/5">
+                            <h3 class="font-bold text-lg">Can I use SkibX on PC/Windows?</h3>
+                            <i class="ph-bold ph-caret-down text-xl faq-icon transition-transform duration-300"></i>
+                        </div>
+                        <div class="faq-content px-6 bg-black/20 text-brand-muted text-sm leading-relaxed">
+                            Currently, SkibX Executor is optimized exclusively for mobile platforms (iOS and Android).
+                            If you wish to use it on a PC, you will need to utilize an Android emulator such as
+                            BlueStacks, MuMu Player, or LDPlayer. A native Windows version is currently in development.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item glass-card rounded-xl border border-white/10 overflow-hidden cursor-pointer"
+                        onclick="toggleFaq(this)">
+                        <div class="px-6 py-4 flex justify-between items-center bg-white/5">
+                            <h3 class="font-bold text-lg">Why does my phone say the APK is a virus?</h3>
+                            <i class="ph-bold ph-caret-down text-xl faq-icon transition-transform duration-300"></i>
+                        </div>
+                        <div class="faq-content px-6 bg-black/20 text-brand-muted text-sm leading-relaxed">
+                            This is known as a "False Positive." Because SkibX is designed to inject code into another
+                            application (Roblox), security systems like Google Play Protect flag this behavior as
+                            suspicious. Rest assured, if downloaded from our official site, SkibX is completely
+                            malware-free.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://fluxusofficial.com/all-executor/" id="sticky-cta"
+        class="sticky-cta md:hidden btn-glow btn-primary px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 w-[90%] max-w-sm hidden-state">
+        <i class="ph-bold ph-download-simple"></i> Download SkibX
+    </a>
+
+    <footer class="bg-brand-dark border-t border-white/10 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="lg:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div
+                            class="w-8 h-8 rounded-lg bg-gradient-to-br from-[#e94560] to-[#533483] flex items-center justify-center">
+                            <i class="ph-bold ph-terminal-window text-white text-sm"></i>
+                        </div>
+                        <span class="font-bold text-xl text-white">SkibX</span>
+                    </div>
+                    <p class="text-brand-muted text-sm leading-relaxed max-w-md">
+                        The premiere keyless Roblox executor for mobile devices. Elevating your gameplay with
+                        unparalleled performance, 100% UNC support, and a commitment to user security.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm text-brand-muted">
+                        <li><a href="#features" class="hover:text-brand-primary transition-colors">Features</a></li>
+                        <li><a href="#how-it-works" class="hover:text-brand-primary transition-colors">Installation</a>
+                        </li>
+                        <li><a href="#faq" class="hover:text-brand-primary transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm text-brand-muted">
+                        <li><a href="#" class="hover:text-brand-primary transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-brand-primary transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Disclaimer -->
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 text-xs text-brand-muted text-center mb-8">
+                <strong>Disclaimer:</strong> SkibX Executor is an independent educational tool. We are not affiliated
+                with, endorsed, or sponsored by Roblox Corporation. Using third-party software to modify gameplay may
+                violate the Terms of Service of the respective games. Users assume all responsibility and risk
+                associated with the use of this software. We do not condone malicious activity or the harming of other
+                players' experiences.
+            </div>
+
+            <div class="text-center text-xs text-brand-muted/50">
+                &copy; 2026 SkibX Executor. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.classList.remove('ph-x');
+                menuIcon.classList.add('ph-list');
+            } else {
+                menuIcon.classList.remove('ph-list');
+                menuIcon.classList.add('ph-x');
+            }
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('ph-x');
+                menuIcon.classList.add('ph-list');
+            });
+        });
+
+        // FAQ Toggle Logic
+        function toggleFaq(element) {
+            // Close other open FAQs
+            document.querySelectorAll('.faq-item').forEach(item => {
+                if (item !== element && item.classList.contains('active')) {
+                    item.classList.remove('active');
+                }
+            });
+
+            // Toggle current FAQ
+            element.classList.toggle('active');
+        }
+
+        // Sticky Navbar & Sticky CTA Logic
+        const navbar = document.getElementById('navbar');
+        const stickyCta = document.getElementById('sticky-cta');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            // Navbar styling on scroll
+            if (currentScroll > 50) {
+                navbar.classList.add('shadow-lg');
+                navbar.style.background = 'rgba(15, 15, 26, 0.95)';
+            } else {
+                navbar.classList.remove('shadow-lg');
+                navbar.style.background = 'rgba(15, 15, 26, 0.8)';
+            }
+
+            // Show Sticky CTA only after scrolling past hero section (approx 500px)
+            // and hide it when near the bottom footer to prevent overlap
+            const bodyHeight = document.body.offsetHeight;
+            const windowHeight = window.innerHeight;
+
+            if (currentScroll > 500 && (currentScroll + windowHeight) < (bodyHeight - 200)) {
+                stickyCta.classList.remove('hidden-state');
+            } else {
+                stickyCta.classList.add('hidden-state');
+            }
+
+            lastScroll = currentScroll;
+        });
+
+        // Initialize first FAQ as open (optional)
+        document.querySelector('.faq-item').classList.add('active');
+    </script>
+</body>
+
+</html>
